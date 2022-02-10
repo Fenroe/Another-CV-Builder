@@ -1,4 +1,4 @@
-function Input() {
+function DataEntry() {
     return (
         <div>
             <fieldset>
@@ -30,8 +30,9 @@ function Input() {
                 <legend>Education</legend>
                 <button>Add Institute</button>
             </fieldset>
+            <button>Preview</button>
         </div>
     )
 }
 
-export default Input;
+export default DataEntry;

@@ -1,11 +1,11 @@
 import { render, cleanup } from "@testing-library/react";
 import React from "react";
 import "@testing-library/jest-dom";
-import Input from "../Input";
+import DataEntry from "../DataEntry";
 
 afterEach(cleanup);
 
 it("renders", () => {
-    const {asFragment} = render(<Input />);
+    const {asFragment} = render(<DataEntry />);
     expect(asFragment()).toMatchSnapshot();
 });
