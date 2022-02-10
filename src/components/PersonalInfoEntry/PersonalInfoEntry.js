@@ -1,7 +1,19 @@
 function PersonalInfoEntry() {
     return (
         <div>
-            <h1>Hello from PersonalInfoEntry</h1>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label>First Name</label>
+                <input />
+                <label>Last Name</label>
+                <input />
+                <label>Email Adress</label>
+                <input />
+                <label>Phone Number</label>
+                <input />
+                <label>Website</label>
+                <input />
+            </fieldset>
         </div>
     )
 };
