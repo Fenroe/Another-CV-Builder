@@ -4,11 +4,11 @@ import React, { useState } from 'react';
 function App() {
   const [personalInfo, setPersonalInfo] = useState(
     {
-      firstName: "",
-      lastName: "",
-      email: "",
-      phoneNumber: "",
-      website: "",
+      firstName: "John",
+      lastName: "Smith",
+      email: "example@email.com",
+      phoneNumber: "01 2345 6789",
+      website: "mywebsite.com",
     }
   );
 
