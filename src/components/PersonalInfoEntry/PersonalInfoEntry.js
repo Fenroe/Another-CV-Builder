@@ -1,3 +1,6 @@
+import FormControl from "../FormControl/FormControl";
+import Button from "../Button/Button";
+
 function PersonalInfoEntry(
     {
         data,
@@ -13,11 +16,32 @@ function PersonalInfoEntry(
         website: "",
     };
 
-    function syncData() {
-        update(localData)
+    function updateFirstName(value) {
+        localData.firstName = value;
     };
 
-    return (
+    function updateLastName(value) {
+        localData.lastName = value;
+    };
+
+    function updateEmail(value) {
+        localData.email = value;
+    };
+
+    function updatePhoneNumber(value) {
+        localData.phoneNumber = value;
+    };
+
+    function updateWebsite(value) {
+        localData.website = value;
+    };
+
+    function syncData() {
+        update(localData)
+        console.log(data);
+    };
+
+    /* return (
         <div>
             <fieldset>
                 <legend>Personal Details</legend>
@@ -32,6 +56,20 @@ function PersonalInfoEntry(
                 <label>Website</label>
                 <input placeholder = {data.website} onChange = {(e) => localData.website = e}/>
                 <button onClick = {syncData}>Update</button>
+            </fieldset>
+        </div>
+    ) */
+
+    return (
+        <div>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <FormControl labelText = {"First Name"} inputType = {"text"} inputEffect = {updateFirstName}/>
+                <FormControl labelText = {"Last Name"} inputType = {"text"} inputEffect = {updateLastName}/>
+                <FormControl labelText = {"Email Address"} inputType = {"email"} inputEffect = {updateEmail}/>
+                <FormControl labelText = {"Phone Number"} inputType = {"number"} inputEffect = {updatePhoneNumber}/>
+                <FormControl labelText = {"Website"} inputType = {"url"} inputEffect = {updateWebsite}/>
+                <Button btnText = {"Update"} btnEffect = {syncData}/>
             </fieldset>
         </div>
     )

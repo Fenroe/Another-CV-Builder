@@ -1,24 +1,24 @@
+import FormControl from "../FormControl/FormControl";
+import Button from "../Button/Button";
+
 function KeySkillsEntry(
     {
         data,
         update,
     }
 ) {
+    const localData = [];
+
+    
     return (
-        <div>
-            <fieldset>
-                {data.map((skill) => {
-                    return(
-                        <div key = {skill.index}>
-                            <label>Skill {skill.index}</label>
-                            <input />
-                        </div>
-                    )
-                })}
-                <legend>Key Skills</legend>
-                <button>Update</button>
-            </fieldset>
-        </div>
+        <fieldset>
+            <legend>Key Skills</legend>
+            {data.map((skill) => {
+                return (
+                    <FormControl key = {skill.index} labelText = {`Skill ${skill.index}`} inputType = {"text"} />
+                )
+            })}
+        </fieldset>
     )
 }
 
