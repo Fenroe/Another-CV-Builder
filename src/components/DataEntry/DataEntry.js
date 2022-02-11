@@ -31,8 +31,7 @@ function DataEntry(
             update = {setKeySkills}/>
             <EmploymentHistoryEntry 
             data = {employmentHistory}
-            update = {setEmploymentHistory}
-            />
+            update = {setEmploymentHistory}/>
             <EducationEntry 
             data = {education}
             update = {setEducation}/>
