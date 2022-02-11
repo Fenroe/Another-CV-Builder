@@ -1,4 +1,9 @@
-function EmploymentHistoryEntry() {
+function EmploymentHistoryEntry(
+    {
+        data,
+        update,
+    }
+) {
     return (
         <div>
             <fieldset>

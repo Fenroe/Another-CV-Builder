@@ -1,4 +1,9 @@
-function KeySkillsEntry() {
+function KeySkillsEntry(
+    {
+        data,
+        update,
+    }
+) {
     return (
         <div>
             <fieldset>

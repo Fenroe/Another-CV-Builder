@@ -1,4 +1,9 @@
-function PersonalInfoEntry() {
+function PersonalInfoEntry(
+    {
+        data,
+        update,
+    }
+) {
     return (
         <div>
             <fieldset>

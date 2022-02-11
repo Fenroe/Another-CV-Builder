@@ -1,4 +1,9 @@
-function EducationEntry() {
+function EducationEntry(
+    {
+        data,
+        update,
+    }
+) {
     return (
         <div>
             <fieldset>

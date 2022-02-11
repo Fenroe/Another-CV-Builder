@@ -1,4 +1,9 @@
-function StatementEntry() {
+function StatementEntry(
+    {
+        data,
+        update,
+    }
+) {
     return (
         <div>
             <fieldset>
