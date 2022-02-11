@@ -1,7 +1,10 @@
 function KeySkillsEntry() {
     return (
         <div>
-            <h1>Hello from KeySkillsEntry</h1>
+            <fieldset>
+                <legend>Key Skills</legend>
+                <button>Add Skill</button>
+            </fieldset>
         </div>
     )
 }

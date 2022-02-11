@@ -1,6 +1,5 @@
 import DataEntry from './components/DataEntry/DataEntry';
 import React, { useState } from 'react';
-import './style/App.css';
 
 function App() {
   const [personalInfo, setPersonalInfo] = useState(

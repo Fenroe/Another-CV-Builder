@@ -1,7 +1,12 @@
 function StatementEntry() {
     return (
         <div>
-            <h1>Hello from StatementEntry</h1>
+            <fieldset>
+                <legend>Statement</legend>
+                <textarea />
+            </fieldset>
         </div>
     )
 }
+
+export default StatementEntry;

@@ -1,7 +1,10 @@
 function EducationEntry() {
     return (
         <div>
-            <h1>Hello from EducationEntry</h1>
+            <fieldset>
+                <legend>Education</legend>
+                <button>Add Institute</button>
+            </fieldset>
         </div>
     )
 };

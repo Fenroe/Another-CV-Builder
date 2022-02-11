@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <div>
+    <fieldset>
+      <legend>
+        Education
+      </legend>
+      <button>
+        Add Institute
+      </button>
+    </fieldset>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <fieldset>
+        <legend>
+          Personal Details
+        </legend>
+        <label>
+          First Name
+        </label>
+        <input />
+        <label>
+          Last Name
+        </label>
+        <input />
+        <label>
+          Email Adress
+        </label>
+        <input />
+        <label>
+          Phone Number
+        </label>
+        <input />
+        <label>
+          Website
+        </label>
+        <input />
+      </fieldset>
+    </div>
+    <div>
+      <fieldset>
+        <legend>
+          Statement
+        </legend>
+        <textarea />
+      </fieldset>
+    </div>
+    <div>
+      <fieldset>
+        <legend>
+          Key Skills
+        </legend>
+        <button>
+          Add Skill
+        </button>
+      </fieldset>
+    </div>
+    <div>
+      <fieldset>
+        <legend>
+          Employment History
+        </legend>
+        <button>
+          Add Employer
+        </button>
+      </fieldset>
+    </div>
+    <div>
+      <fieldset>
+        <legend>
+          Education
+        </legend>
+        <button>
+          Add Institute
+        </button>
+      </fieldset>
+    </div>
+    <button>
+      Preview
+    </button>
+  </div>
+</DocumentFragment>
+`;
